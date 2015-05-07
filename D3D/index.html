@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>X3DOM with D3!!!</title>
+	<script type="text/javascript" src="lib/x3dom.js"> </script>
+	<script type="text/javascript" src="lib/d3.js"> </script>
+	<link rel="stylesheet" type="text/css" href="lib/x3dom.css"/>
+</head>
+<body>
+	<h1>Test using D3.js and X3DOM together</h1>
+	<p>You can drag to rotate and scroll to zoom.</p>
+	<x3d width="400px" height="400px" id="X3Dcanvas" draggable="true">
+		<scene>
+			<viewpoint position='0 -10 20' orientation='1 0 0 0.6'></viewpoint>
+			<transform id="scene"></transform>
+		</scene>
+	</x3d>
+	<script type="text/javascript" src="my.js"></script>
+</body>
+</html>
