@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px; }
+
+.grafico {
+  width: 800px;
+  height: 300px;
+  margin-top: 5px;
+  position: relative; }
+
+.barra {
+  position: absolute;
+  height: inherit; }
+  .barra .tick {
+    position: absolute;
+    left: -10px;
+    bottom: -40px;
+    -webkit-transform: rotate(-70deg);
+    font-weight: bold; }
+  .barra .mark {
+    position: absolute;
+    bottom: 0px;
+    width: inherit; }
+    .barra .mark .value {
+      background-color: white;
+      position: absolute;
+      opacity: 0;
+      z-index: 1; }
